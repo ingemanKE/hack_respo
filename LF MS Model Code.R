@@ -10,7 +10,7 @@
 
 ##Load data file psData6.10
 psData6.10<-read.csv('psData6.10.csv')
-
+head(psData6.10)
 ##Give meaningful rownames of Site and Year
 rownames(psData6.10)<-paste(psData6.10$Site, psData6.10$Year-2000, sep=".")
 
